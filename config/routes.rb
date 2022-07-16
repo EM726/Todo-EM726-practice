@@ -1,6 +1,4 @@
 Rails.application.routes.draw do
-  resources :todos
-  resources :goals
   resources :goals do
     resources :todos do
       member do
